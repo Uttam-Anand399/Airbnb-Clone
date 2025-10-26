@@ -14,7 +14,7 @@ let port=process.env.PORT || 6000;
 app.use(cookieParser())
 app.use(express.json())
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://airbnb-clone-1-txac.onrender.com",
     credentials:true
 }))
 
